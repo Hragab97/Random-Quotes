@@ -1,0 +1,19 @@
+.quotes {
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../Assets/books-imagination-still-life.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icons {
+    transition: 0.5s ease;
+}
+
+.icons:hover {
+    color: rgb(0, 81, 255);
+    transform: rotateY(180deg);
+}
+
+h4 {
+    font-family: "Briem Hand", cursive;
+}

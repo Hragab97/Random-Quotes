@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>Quote of the Day</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/fontawesome.min.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="quotes">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col vh-100 text-center d-flex justify-content-center align-items-center flex-column text-white ">
+                    <div class="bg-secondary bg-opacity-25 rounded-5 p-5">
+                        <div class="icons display-2">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <div class="header-text my-3">
+                            <h1 class="display-3 fw-bolder fst-italic">Quote of the Day</h1>
+                            <p class="fw-medium h4">Press the button below to recieve a random quote!</p>
+
+
+                        </div>
+                        <h4 class="text-bg-primary p-5 rounded-5 fst-italic" id="random"></h4>
+                        <button class="btn btn-outline-primary" onclick="randomQuote()" type="submit">New Quote</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>
